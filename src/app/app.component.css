@@ -1,0 +1,46 @@
+*--------Headerclasse------*/
+.header{
+    height:95vh;
+    background:linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar a:link,
+.navbar a:visited{
+    color:#f4f4f4;
+}
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
+.navbar{
+   
+    padding: 1rem;
+    margin-top: 1rem;
+    
+}
+.navbar a{
+    padding-bottom: 0.3em;;
+}
+ .navbar .logo {
+    float:left;
+}
+ .navbar .nav-items {
+    float: right;
+    margin-top: 1rem;
+}
+.navbar::after{
+    content:'';
+    display: block;
+    clear:both;
+}
+ .navbar .nav-item{
+    display: inline-block;
+    padding:1rem;
+    text-transform: uppercase;
+}
+.text-white{
+    color:white;
+    size:20px;
+}

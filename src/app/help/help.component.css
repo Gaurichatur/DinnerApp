@@ -1,0 +1,45 @@
+body{
+    margin-top: 50px;
+  }
+  
+  h1{
+    font-weight: 800 !important;
+    font-size: 50px;
+  }
+  
+  h6{
+    color: #716f6f
+  }
+  
+  .img-wrapper{
+    width: 500px;
+  }
+  
+  img{
+    height: 100%;
+    width: 100%;
+  }
+  
+  input, textarea, select{
+    background: #f7f9f8 !important;
+  }
+  
+  .email-us{
+    text-decoration: underline;
+  }
+  
+  label{
+    font-weight: 600;
+    color: #716f6f
+  }
+  
+  button{
+    float: right;
+  }
+  button span{
+    margin-left: 8px;  
+  }
+  
+  button i{
+    margin: 0px 8px;
+  }
